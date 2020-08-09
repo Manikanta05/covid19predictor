@@ -1,4 +1,4 @@
-my_packages = c("openxlsx","shiny","shinythemes","dplyr","caTools")
+my_packages = c("pracma","shiny","shinythemes","dplyr","caTools")
 
 install_if_missing = function(p) {
   if (p %in% rownames(installed.packages()) == FALSE) {
